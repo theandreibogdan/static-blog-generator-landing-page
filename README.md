@@ -1,1 +1,1 @@
-# static-blog-generator
+# static-blog-generator-landing-page

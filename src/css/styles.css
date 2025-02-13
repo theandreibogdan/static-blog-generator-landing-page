@@ -1,0 +1,44 @@
+/* Smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent body scroll when mobile menu is open */
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Responsive image handling */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container consistency */
+.container-width {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Additional responsive utilities */
+@media (max-width: 640px) {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+/* Animation utilities */
+.transition-transform {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+} 
